@@ -12,6 +12,7 @@ RUN buildDependencies="build-essential \
     pkg-config \
     libc++-dev \
     libc++abi-dev \
+    libtinfo5 \
     postgresql-server-dev-$PG_MAJOR" \
   && apt-get update \
   && apt-get install -y --no-install-recommends ${buildDependencies} libc++1 \
