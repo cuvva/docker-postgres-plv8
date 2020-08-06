@@ -15,7 +15,7 @@ jobs:
     working_directory: ~/repo
     environment:
       IMAGE_REPO: cuvva1/postgres-plv8
-      IMAGE_TAG: 11.7-2.3
+      IMAGE_TAG: 12.3-2.3
     steps:
       - checkout
       - setup_remote_docker

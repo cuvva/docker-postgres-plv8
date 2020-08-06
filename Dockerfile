@@ -1,4 +1,4 @@
-FROM postgres:11.7
+FROM postgres:12.3
 
 ENV PLV8_VERSION=v2.3.14 \
     PLV8_SHASUM="9bfbe6498fcc7b8554e4b7f7e48c75acef10f07cf1e992af876a71e4dbfda0a6  v2.3.14.tar.gz"
